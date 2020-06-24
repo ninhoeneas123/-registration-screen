@@ -1,0 +1,110 @@
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: teal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    #form-box{
+     
+    width: 550px;
+        padding: 20px;
+    }
+    
+    #form-group {
+    display:block;
+    
+    
+    }
+    
+    input{
+    width: 350px;
+    height: 30px;
+    
+    }
+    .form{
+     padding-top: 25px;
+    
+    }
+    .numReservista{
+    display: none;
+    
+    
+    }
+    .active{
+    display: block;
+    
+    
+    }
+    
+    .btn{
+    width: 150px;
+    padding: 5px;
+    
+    }
+    
+    
+    input[type=number]::-webkit-inner-spin-button { 
+        -webkit-appearance: none;
+        
+    }
+    input[type=number] { 
+       -moz-appearance: textfield;
+       appearance: textfield;
+    
+    }
+    
+    .arquivo input{
+    margin-left: 80px ;
+    width: 330px;
+    padding: 3px;
+    
+    }
+    .nome{
+        font-size: 16px;
+    margin-left: -300px;
+    
+    }
+    .nomeSexo{
+    margin-left: -75px;
+    
+    }
+    
+    #smallCpf{
+    font-size: 9px;
+    
+    }
+    .sexo{
+    width: 120px;
+    height: 25px;
+    
+    }
+    .nomeReservista{
+        font-size: 16px;
+        margin-left: -250px;
+    
+    
+    }
+    
+    .rodape{
+        margin-top: 10px;
+    font-size: 10px;
+    
+    }
+    .btnEnviar{
+    
+    margin-top: 20px;
+    
+    }
+    .traco{
+    margin-left: 100px;
+    margin-right: 100px;
+    border-bottom: .9px solid grey;
+    
+    }
+
+    .numReservista { 
+        display: none;
+    }
